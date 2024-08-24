@@ -54,7 +54,7 @@ namespace ChatApplicaitonServer
 
             string data = ReadStringFromStream(stream);
 
-            Console.WriteLine("%s", data);
+            Console.WriteLine(data);
 
         }
 

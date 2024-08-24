@@ -10,7 +10,8 @@ namespace ChatApplicaitonServer
     {
         static void Main(string[] args)
         {
-
+            ChatListener listener = new ChatListener();
+            listener.StartListener();
         }
     }
 }
